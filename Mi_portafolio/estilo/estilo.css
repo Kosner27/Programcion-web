@@ -1,0 +1,81 @@
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/imagenes/641968.jpg);
+}
+.caja1{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+    
+}
+.caja2{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 40%;
+    margin: 3px;
+    padding:3px;
+    
+}
+a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 700;
+    color:black;
+}
+
+.foto_personal{
+    height: 250px;
+    width: 270px;
+    border-radius:360px;
+}
+.caja3{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 20%;
+    background-image: url(/imagenes/641968.jpg);
+    border-radius: 50px;
+    margin:15px;
+    padding:25px;
+}
+.caja4{
+    
+  
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        width: 20%;
+        border-radius: 50px;
+        margin:15px;
+        padding:25px;
+        
+    
+}
+.caja5{
+  
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 700;
+    color: black;
+}
+p{
+    text-align:center;
+    font-size: 19px;
+    font-weight: 700;
+   
+}
+#fondo{
+background-image: url(/imagenes/605599.jpg);
+}
+img{
+    border-radius:160px;
+
+}

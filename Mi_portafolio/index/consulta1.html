@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/estilo/consultaStyle.css">
+    <link rel="stylesheet" href="/estilo/consultaStyle.css" />
     <title>Consulta</title>
   </head>
   <body>
-    <div>
+    <div class="container-fluid">
       <header>
         <section><h1>Consulta</h1></section>
       </header>
@@ -27,7 +27,9 @@
             La arquitectura del protocolo HTTP, implica que programas clientes
             como Firefox, Chrome, Opera y Robots, establezcan conexión y
             realicen peticiones de datos a programas servidores como Apache,
-            Nginx, entre otros. <br />
+            Nginx, entre otros.
+          </p>
+          <p>
             Estas peticiones son gestionadas y contestadas por los servidores, a
             través de intermediarios denominados proxies. El protocolo HTTP está
             apoyado sobre los servidores de conexión TCP/IP, donde el protocolo
@@ -39,75 +41,93 @@
       </section>
       <section>
         <article>
-          <h1>Metodos del protocolo HTTP</h1>
+          <p>Metodos del protocolo HTTP</p>
           <ol>
             <li>
-              GET <br />
+              GET
+              <p></p>
               Este método solicita una representación de un recurso determinado.
               Las peticiones que utilicen el método GET, solo deben ser usadas
               para la recuperación de información, por lo que no pueden incluir
               datos.
             </li>
-            <br />
+            <p></p>
             <li>
-              POST <br />
+              POST
+              <p></p>
               Tiene la función de enviar datos para que sean procesados en un
               recurso especificado, lo que usualmente trae como consecuencia
               efectos secundarios en el servidor, como por ejemplos, cambios en
               su estado.
             </li>
-            <br />
+            <p></p>
             <li>
-              PUT <br />
+              PUT
+              <p></p>
               El método PUT se encarga de reemplazar las representaciones que
               tenga el recurso de destino con la carga útil de la petición
               realizada.
             </li>
-            <br />
+            <p></p>
             <li>
-              CONNECT <br />
+              CONNECT
+              <p></p>
               Tiene la función de establecer un túnel hacia el servidor que haya
               sido identificado con el recurso.
             </li>
-            <br />
+            <p></p>
             <li>
-              DELETE <br />
+              DELETE
+              <p></p>
               El método DELETE en HTTP estará a cargo de eliminar un recurso
               especificado por el usuario.
             </li>
-            <br />
+            <p></p>
             <li>
-              OPTIONS <br />
+              OPTIONS
+              <p></p>
               Este modo es usado con el fin de describir las opciones de
               comunicación que tiene el recurso de destino.
             </li>
           </ol>
         </article>
-
-        
       </section>
-      <Article>
+      <article>
         <section>
-            <h1> Codigos de respuesta </h1>
+          <p>Codigos de respuesta</p>
         </section>
         <section>
-            Para cada petición el servidor devuelve un código de respuesta con la información del recurso que haya sido solicitado. Así pues, puedes obtener códigos divididos por centenas como
+          <p>
+            Para cada petición el servidor devuelve un código de respuesta con
+            la información del recurso que haya sido solicitado. Así pues,
+            puedes obtener códigos divididos por centenas como
+          </p>
         </section>
         <section>
-            <ul>
-                <li>1xx: son respuestas informativas.</li>
-                <li>2xx: refiere a la respuesta correcta.</li>
-                <li>3xx: respuesta de redirección.</li>
-                <li>4xx: supone algún error causado por el cliente.</li>
-                <li>5xx: se refiere a un error ocasionado por el servidor.</li>
-            </ul>
+          <ul>
+            <li>1xx: son respuestas informativas.</li>
+            <li>2xx: refiere a la respuesta correcta.</li>
+            <li>3xx: respuesta de redirección.</li>
+            <li>4xx: supone algún error causado por el cliente.</li>
+            <li>5xx: se refiere a un error ocasionado por el servidor.</li>
+          </ul>
         </section>
         <section>
-            Además, en cada transacción se envían ciertas cabeceras que permiten ampliar las funciones de este protocolo como por ejemplo User-Agent, Allow, Content-Type y otras cabeceras para el control de cookies.
+          <p>
+            Además, en cada transacción se envían ciertas cabeceras que permiten
+            ampliar las funciones de este protocolo como por ejemplo User-Agent,
+            Allow, Content-Type y otras cabeceras para el control de cookies.
+          </p>
         </section>
-      </Article>
-      <footer>
-        <h1><a href="consulta2.html">Protocolo TCP/IP</a></h1>
+      </article>
+      <section class="img">
+        <img src="/imagenes/search-g1c9bdf45f_640.jpg" alt="imagen en relacion con el protocolo HTTP">
+      </section>
+      <section>
+      <a class="autor" href="https://pixabay.com/es/users/publicdomainpictures-14/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=13476">foto por PublicDomainPictures</a> 
+              </section>
+      <footer class="caja">
+        <p><a href="consulta2.html">Protocolo TCP/IP</a></p>
       </footer>
     </div>
   </body>

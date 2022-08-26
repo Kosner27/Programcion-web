@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.caja1{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.banner{
+    margin: 10px auto;
+	width: 1024px;
+	
+	position: relative;
+	height: 300px;
+	
+	border-radius: 10px;
+}
+.banner2{
+    margin: 10px auto;
+	width: 300px;
+	
+    position: relative;
+    top: -250px; left: 00px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    margin-left:420px;
+    margin-bottom: 100px;
+    margin-top:-100px;
+    
+}
+label{
+    font-size: 32px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+input{
+    width:300px;
+    height: 40px
+}
+a {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+body{
+    background-color: rgba(95, 167, 162, 1)
+}
+.registro{
+    font-size: 32px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:410px;
+    margin-bottom: 100px;
+    margin-top:-100px;
+}
+.registro2{
+margin-left: -450px;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: -150px;
+    margin-bottom:50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding:40px
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: -50px;
+    margin-bottom:50px;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding:40px
+}
+.catalogo{
+    display: flex;
+    flex-direction: colunm;
+      
+}
+h1{
+    font-size: 22px;
+}
+img{
+    width: 150px;
+}
+.Boton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:350px;
+    margin-top:-350;
+    padding:25px;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
